@@ -1,0 +1,62 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        "configurable"
+    ],
+    "companyName": "tobi-speed@web.de",
+    "longName": "FhemControl",
+    "projectType": "pebblejs",
+    "resources": {
+        "media": [
+            {
+                "file": "images/menu_icon.png",
+                "name": "IMAGE_MENU_ICON",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/logo_splash.png",
+                "name": "IMAGE_LOGO_SPLASH",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/tile_splash.png",
+                "name": "IMAGE_TILE_SPLASH",
+                "type": "bitmap"
+            },
+            {
+                "file": "fonts/UbuntuMono-Regular.ttf",
+                "name": "MONO_FONT_14",
+                "type": "font"
+            },
+            {
+                "file": "images/home_96.png",
+                "name": "IMAGES_HOME_96_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/home_28.png",
+                "menuIcon": true,
+                "name": "IMAGES_HOME_28_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/home_24.png",
+                "name": "IMAGES_HOME_24_PNG",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "FhemControl",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "4350143d-5556-40b4-884d-e6a3f6ff194f",
+    "versionCode": 1,
+    "versionLabel": "0.3",
+    "watchapp": {
+        "hiddenApp": false,
+        "watchface": false
+    }
+}

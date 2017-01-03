@@ -1,0 +1,56 @@
+{
+    "appKeys": {
+        "KEY_LINE1": 1,
+        "KEY_LINE2": 2,
+        "KEY_LINE3": 3,
+        "KEY_LINE4": 4,
+        "KEY_LINE5": 5,
+        "KEY_OLD": 11,
+        "KEY_STATION": 0
+    },
+    "capabilities": [
+        "location",
+        "configurable"
+    ],
+    "companyName": "tobi-speed@web.de",
+    "longName": "Abfahrtsmonitor",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/tram.png",
+                "name": "IMAGE_TRAM",
+                "type": "png"
+            },
+            {
+                "file": "images/bus.png",
+                "name": "IMAGE_BUS",
+                "type": "png"
+            },
+            {
+                "file": "images/icon.png",
+                "menuIcon": true,
+                "name": "IMAGE_ICON",
+                "type": "png"
+            },
+            {
+                "file": "images/old.png",
+                "name": "IMAGE_OLD",
+                "type": "png"
+            },
+            {
+                "file": "images/stand.png",
+                "name": "IMAGE_STAND",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "2",
+    "shortName": "Abfahrtsmonitor",
+    "uuid": "4475ca48-fc21-4b0c-b487-63de6092c96f",
+    "versionCode": 1,
+    "versionLabel": "0.40",
+    "watchapp": {
+        "watchface": true
+    }
+}

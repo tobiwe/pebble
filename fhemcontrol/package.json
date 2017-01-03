@@ -1,0 +1,70 @@
+{
+    "author": "pebble@towan.de",
+    "dependencies": {},
+    "keywords": [],
+    "name": "fhemcontrol",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "FhemControl",
+        "enableMultiJS": true,
+        "messageKeys": {
+            "DEVICE": 0,
+            "SET": 1
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/menu.png",
+                    "menuIcon": true,
+                    "name": "menu",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/lamp.png",
+                    "name": "LAMP",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/room.png",
+                    "name": "ROOM",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/more.png",
+                    "name": "MORE",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/on.png",
+                    "name": "ON",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/off.png",
+                    "name": "OFF",
+                    "targetPlatforms": null,
+                    "type": "png"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "4350143d-5556-40b4-884d-e6a3f6ff194f",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "0.4.0"
+}
